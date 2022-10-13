@@ -1,0 +1,24 @@
+/* HEADER */
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+}
+
+header img {
+    height: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
