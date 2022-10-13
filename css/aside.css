@@ -4,4 +4,5 @@ aside {
     background-color: var(--secondary-color-dark);
     flex-shrink: 0;
     padding: 20px;
+    width: auto;
 }
