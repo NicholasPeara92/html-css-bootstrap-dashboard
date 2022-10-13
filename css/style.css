@@ -13,3 +13,7 @@
     --secondary-color: #1c71e8;
     --secondary-color-dark: #061e34;
 }
+
+.ms-wrap-conteiner {
+    width: 100vw;
+}
