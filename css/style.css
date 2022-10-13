@@ -18,7 +18,8 @@
 
 .ms-wrap-conteiner {
     width: 100vw;
-    height: calc(100vh - 70px);
+    height: 100vh;
+    padding-top: 70px;
     background-color: var(--primary-color-dark);
     display: flex;
 }

@@ -2,7 +2,27 @@
 
 aside {
     background-color: var(--secondary-color-dark);
+    background-image: url(../img/sidebar-bg.png);
     flex-shrink: 0;
-    padding: 20px;
     width: auto;
+    padding: 20px;
+}
+    
+aside nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    list-style: none;
+}
+
+
+aside a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+aside .admin {
+    margin-top: auto;
 }
