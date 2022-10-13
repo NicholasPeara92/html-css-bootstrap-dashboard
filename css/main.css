@@ -11,3 +11,15 @@ main {
     padding-top: 20px;
     color: white;
 }
+.table {
+    width: auto;
+    margin-left: 0;
+}
+
+.ms-w-60 {
+    width: 60%;
+}
+
+.ms-w-10 {
+    width: 10%;
+}
