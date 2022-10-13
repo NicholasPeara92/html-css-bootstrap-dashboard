@@ -5,3 +5,10 @@ main {
     flex-grow: 1;
     overflow-y: auto;
 }
+
+.ms-container {
+    background-color: var(--secondary-color);
+    height: 200px;
+    padding: 20px 10px;
+    color: white;
+}
