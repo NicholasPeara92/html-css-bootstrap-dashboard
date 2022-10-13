@@ -1,0 +1,7 @@
+/* MAIN */
+
+main {
+    background-color: var(--primary-color-dark);
+    flex-grow: 1;
+    overflow-y: auto;
+}

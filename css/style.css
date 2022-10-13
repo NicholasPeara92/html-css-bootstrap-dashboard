@@ -1,4 +1,6 @@
 @import url(header.css);
+@import url(aside.css);
+@import url(main.css);
 
 /* TIPOGRAPHY */
 * {
@@ -16,4 +18,7 @@
 
 .ms-wrap-conteiner {
     width: 100vw;
+    height: calc(100vh - 70px);
+    background-color: var(--primary-color-dark);
+    display: flex;
 }
