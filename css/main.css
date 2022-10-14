@@ -35,3 +35,6 @@ main {
     width: 20px;
     margin-right: .625rem;
 }
+.table {
+    vertical-align: middle;
+}
