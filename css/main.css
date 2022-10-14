@@ -23,3 +23,7 @@ main {
 .ms-w-150 {
     width: 9.375rem;
 }
+
+.ms-badge {
+    background-color: var(--primary-badge-color);
+}
