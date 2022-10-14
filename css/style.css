@@ -16,6 +16,10 @@
     --secondary-color-dark: #061e34;
 }
 
+.ms-search-color {
+    background-color: #e5e5e5;
+}
+
 .ms-wrap-conteiner {
     width: 100vw;
     height: 100vh;

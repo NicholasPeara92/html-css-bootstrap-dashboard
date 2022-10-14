@@ -22,7 +22,7 @@
                 <div class="col-search-bar">
                     <form class="d-flex" role="search">
                       <i class="fa-solid fa-magnifying-glass"></i>
-                      <input class="form-control me-2 ps-5" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                      <input class="form-control me-2 ps-5 ms-search-color" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                 </div>
                 <div class="col-nav">
@@ -38,7 +38,16 @@
                           <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fa-solid fa-bell"></i></a>
+                          <div class="dropdown">
+                            <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                          </div>
                         </li>
                       </ul>
                     </nav>
