@@ -27,3 +27,11 @@ main {
 .ms-badge {
     background-color: var(--primary-badge-color);
 }
+.ms-text-warning {
+    color: white!important;
+}
+
+.class-logo {
+    width: 20px;
+    margin-right: .625rem;
+}
