@@ -38,3 +38,21 @@ main {
 .table {
     vertical-align: middle;
 }
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ms-btn-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #f7f7f7;
+    color: #1c71e8;
+    border: 1px solid #1c71e8;
+}
+
+.ms-border-top {
+    border-top: none;
+}
