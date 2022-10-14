@@ -15,8 +15,11 @@ header img {
     max-height: 40px;
 }
 
-.hide {
-    display: none;
+.fa-magnifying-glass {
+    position: relative;
+    font-size: 1.25rem;
+    top: 10px;
+    left: 35px;
 }
 
 .header-row {
