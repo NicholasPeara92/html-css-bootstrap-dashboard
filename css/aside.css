@@ -26,3 +26,7 @@ aside a {
 aside .admin {
     margin-top: auto;
 }
+
+aside i {
+    width: 30px;
+}
