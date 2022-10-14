@@ -6,16 +6,17 @@ aside {
     flex-shrink: 0;
     width: auto;
     padding: 20px;
+    padding-right: 1.875rem;
 }
     
-aside nav {
+aside ul {
     display: flex;
     flex-direction: column;
     height: 100%;
     flex-grow: 1;
     list-style: none;
+    padding-left: 0;
 }
-
 
 aside a {
     text-decoration: none;
@@ -23,7 +24,11 @@ aside a {
     padding-bottom: 10px;
 }
 
-aside .admin {
+aside li {
+    padding-top: .625rem;
+}
+
+aside li:last-child {
     margin-top: auto;
 }
 
